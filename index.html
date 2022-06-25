@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>Amanda's Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Marck+Script:wght@300;400&display=swap" rel="stylesheet">
+
+    <!-- Custom Styles and Overrides -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+
+  </head>
+  <body class="bg-light d-flex flex-column h-100">
+    
+  <!-- Bootstrap Nav Bar here -->
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container">
+      <a id="wordmark" class="navbar-brand" href="index.html"><img src="img/icon.svg" alt="icon" width="150" height="144" class="d-inline-block align-text-top"></a>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+  
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkDesign" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Design
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLinkWorks">
+              <li><a class="dropdown-item" href="design.html">Works</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkAbout" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              About
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLinkBiography">
+              <li><a class="dropdown-item" href="about.html">Biography</a></li> 
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="process.html">Process</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Insert Bootstrap Jumbotron here -->
+  <div id="hero" class="p-5 mb-4 bg-light text-light">
+    <div class="container py-5">
+      <h1 class="display-5">Aspiring Digital Strategist - Amanda's Portfolio</h1>
+      <p class="col-md-8 fs-4">Current Digital Enterprise Management student at University of Toronto. Based in Toronto, Canada. Amanda values design thinking and dreams to be an entrepreneur one day. She looks to grow her passion in creating the finest digital strategies for startups and multi-national companies in the tech space.</p>
+      <form action="humans.html">
+        <button type="submit" class="btn btn-secondary btn-lg" type="button">Know Me Better</button>
+      </form>
+    </div>
+  </div>
+  
+  
+  <!-- Insert Cards here https://getbootstrap.com/docs/5.0/components/card/#grid-cards -->
+  <!-- https://getbootstrap.com/docs/5.0/examples/album/ -->
+
+  <section class="container my-5">
+    
+    <h2 class="display-4">My Travel Footprints...</h2>
+
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4  g-4">
+    <div class="col">
+      <div class="card">
+        <img src="img/hanoi.png" class="card-img-top" alt="hanoi">
+        <div class="card-body">
+          <h5 class="card-title">Hanoi <span class="badge bg-success text-dark">Vietnam</span></h5>
+          <p class="card-text">HaLong Bay, July 2016</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <video class="card-img-top" playsinline autoplay muted loop>
+          <source src="media/hk.mp4" type="video/mp4">
+        </video>
+        <div class="card-body">
+          <h5 class="card-title">Hong Kong, China</h5>
+          <p class="card-text">Lion Rock, HKSAR, May 2022</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="img/cesky.png" class="card-img-top" alt="Cesky Krumlov">
+        <div class="card-body">
+          <h5 class="card-title">Cesky Krumlov <span class="badge bg-info">Prague</span></h5>
+          <p class="card-text">Czeck Republic, Dec 2019</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+         <!-- Photo by Harold Sikkema -->
+        <img src="img/salzburg.png" class="card-img-top" alt="Salzburg">
+        <div class="card-body">
+          <h5 class="card-title">Salzburg</h5>
+          <p class="card-text">Festung Hohensalzburg, Austria, Nov 2019</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  
+  <!-- Recent Works section - https://getbootstrap.com/docs/5.0/examples/heroes/ -->
+
+  <section class="bg-secondary">
+
+  <div class="container col-xxl-8 px-4 py-5">
+
+    <h2 class="display-4 mb-5">Recent Works</h2>
+
+    <div class="row flex-lg-row align-items-center g-5 pb-5 bg-white my-5">
+      <div class="col-sm-4">
+        <a href="https://unsplash.com/photos/PlUJM2sPwis"><img src="img/puppies.png" class="d-block mx-lg-auto img-fluid" alt="Medium" loading="lazy"></a>
+      </div>
+      <div class="col-sm-8">
+        <h1 class="display-6 lh-1 mb-3">The Medium </h1>
+        <p class="lead">My article "Maple Trees in Tai Tong" is published in the Features section titled "Rockin' Around the Omicron Variant", January 2022</p>
+        <a href="https://themedium.ca/rockin-around-the-omicron-variant/" target="_blank" type="button" class="btn btn-secondary btn-lg px-4 me-md-2">Click!</a>
+      </div>
+    </div> 
+
+    <div class="row flex-lg-row align-items-center g-5 pb-5 bg-white my-5">
+      <div class="col-sm-4">
+        <img src="img/rhino.png" class="d-block mx-lg-auto img-fluid" alt="Rhino Rock" loading="lazy">
+      </div>
+      <div class="col-sm-8">
+        <h1 class="display-6 lh-1 mb-3">VISION Journal @UTM</h1>
+        <p class="lead">My Short Story "Rhino Rock" is featured in Vision Journal Issue 3 - The 11:11 Series. It's a realistic story about human connection with the beauty of nature.</p>
+        <a href="https://issuu.com/iccitvision/docs/vision_journal_2022" target="_blank"  type="button" class="btn btn-secondary btn-lg px-4 me-md-2">Read more</a>
+      </div>
+    </div>
+  </div> 
+</section>
+
+
+   <!--  Sticky Footer https://getbootstrap.com/docs/5.0/examples/sticky-footer/ -->
+   
+  <footer class="footer mt-auto py-3 bg-dark">
+    <div class="container text-center">
+      <span class="text-white">Created by <a class="text-white" href="https://www.linkedin.com/in/amanda-liu-a2b458a2/">Amanda Liu</a> with <a class="text-white" href="https://getbootstrap.com">Bootstrap</a>. Icon inspired by <a class="text-white" href="https://www.canva.com/templates/">Canva</a>.</span>
+    </div>
+  </footer>
+
+
+
+    <!-- Bootstrap Javascript Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+  </body>
+</html>
